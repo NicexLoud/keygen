@@ -26,9 +26,10 @@ chord_velocity_max = 70
 # Each entry has an equal chance of being selected on a per-chord basis.
 # valid values are 0 through 8. C4 in this context is in octave 5.
 octs = [
-		[2, 3, 4],
+		# [2, 3, 4],
 		[3, 3, 3],
-		[4, 4, 4],
+		[5, 5, 5],
+		# [4, 4, 4],
 	]
 
 # possible_whole_notes dictates the order of note durations in the melody.
@@ -74,8 +75,8 @@ melody_velocity_max = 70
 # melody_octaves controls the possible octave assigned to each note in a melody,
 # on a per-note basis. Equal chance, so you can use duplicates here to increase the
 # chance that a particular octave is selected. 0 through 8.
-melody_octaves = [4, 5, 5, 5, 6, 6, 6, 6]
-
+# melody_octaves = [4, 5, 5, 5, 6, 6, 6, 6]
+melody_octaves = [4]
 # to define the number of unique measures, their order, repition, etc,
 # please see # SET UP RHYTHMS and # SET UP FORM in keygen.py.
 
